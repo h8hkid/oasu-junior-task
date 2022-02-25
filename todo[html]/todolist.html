@@ -9,22 +9,25 @@
 </head>
 
 <body>
-    <div class='container'>
-        <header>todo-list</header>
+    <div class="wrapper">
+        <header>TODO LIST</header>
         <div class="inputfield">
             <input type="text" placeholder="добавить новую задачу">
             <button>
-                <img class="icon" src="ico/plus-svgrepo-com(1).svg">
+                <img class="icon" src="ico/plus-svgrepo-com(2).svg">
                  
             </button> 
         </div>
-        <ul class='todo-list'>
-            <li>PHFIZER <span></span></li>
+        <ul class="todoList">
+            <!-- инф задается локально -->
             
-        </ul>
+        </ul> 
+        <div class="footer">
+            <span>у вас запланировано <span class="pendingNumb"></span> дел</span>
+            <button>удалить все</button>    
+        </div>
         </main>
     </div>
-    
-    
+    <script src="todolist.js"></script>
 </body>
 </html>
